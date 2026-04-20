@@ -1,5 +1,5 @@
 /**
-	* Explanation
+	* Explanation - write an Explanation for the whole class here
 	* @author Mr. Kalisz
 	* @version 17.0.1
 	*/
@@ -23,6 +23,7 @@ class Example {
 
 	//methods - params and return
 	/**
+	 * Explanation
 	 * @return returns the value of var1 (explanation of return value) 
 	 *
 	 */
@@ -34,12 +35,23 @@ class Example {
 	/**
 	* Explanation of the method
 	*
-	*@param a String that will replace the value of var2 (explataion of what the parameter is)
+	*@param var2 a String that will replace the value of var2 (explataion of what the parameter is)
 	*
 	*/
 	
 	public void setVar2(String var2) {
 		this.var2 = var2;
+	}
+
+	/**
+	* Explanation of the method
+	*
+	*@param var1 String that will replace the value of var2 (explataion of what the parameter is)
+	*@return explanation of return
+	*/
+	
+	public int returnAndParams(int var1) {
+		return var1;
 	}
 	
 }
